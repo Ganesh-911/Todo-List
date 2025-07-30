@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wishlist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light">
+    <main class="main">
+      <div id="theme-toggle" class="theme-toggle" style="position: absolute; top: 1rem; right: 1rem; cursor: pointer;">
+  <!-- Start with moon (dark mode icon) -->
+  <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#e3e3e3">
+    <path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/>
+  </svg>
+</div>
+
+        <h1 class="heading-1">Your Wishlist</h1>
+        <form class="todo-form">
+          <input class="input" placeholder="Add your wishlist here..." />
+          <button class="button btn-primary cursor">Add</button>
+          <p id="task-counter" class="todo text-center mt-2"></p>
+        </form>
+        <div class="todos-container">
+          
+        </div>
+        <div class="button-container flex justify-between mt-3">
+          <button id="clear-all" class="btn-primary  button clear">Clear All</button>
+          <button id="clear-completed" class="btn-primary  button clear">Clear Completed</button>
+        </div>
+      </main>
+      <script type="module" src="index.js"></script>
+      
+</body>
+</html>
