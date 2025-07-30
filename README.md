@@ -17,11 +17,7 @@ Includes features like task creation, deletion, completion tracking, persistent 
 
 ---
 
-## 🎨 UI Preview
 
-Light Mode | Dark Mode
-:--:|:--:
-![Light Mode](./preview-light.png) | ![Dark Mode](./preview-dark.png)
 
 ---
 
@@ -53,6 +49,8 @@ todo-app/
 3. Start adding your tasks!
 
 ---
+**##Live Server**
+**Link**: https://ganesh-911.github.io/Todo-List/
 
 
 ## 🤝 Contributing
